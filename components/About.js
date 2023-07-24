@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import AboutImg from '../public/aboutImg.jpg';
+import AboutImg from './assets/aboutImg.jpg';
 import { Slide } from 'react-slideshow-image'
 import Link from 'next/link';
 
