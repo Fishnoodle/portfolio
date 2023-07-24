@@ -2,6 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import naImg from '../public/NA.png'
+import VSC from '../public/VSC.png'
+import Kodak from '../public/Kodak.png'
+import Portfolio from '../public/Portfolio.png'
+import SmartRoster from '../public/SmartRoster.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -12,28 +16,28 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem
-                    title='Project Number 1'
-                    description='N/A'
-                    backgroundImg={naImg}
-                    projectUrl='/project1'
+                    title='Vancouver Sai Center Website'
+                    description='In Development For New Redesign'
+                    backgroundImg={VSC}
+                    projectUrl='/VancouverSaiCenter'
                 />
                 <ProjectItem
-                    title='Project Number 2'
-                    description='N/A'
-                    backgroundImg={naImg}
+                    title='SMART Roster'
+                    description='Automated Nursing Assignment Planning'
+                    backgroundImg={SmartRoster}
                     projectUrl='javascript:void(0);'
                 />
                 <ProjectItem
-                    title='Project Number 3'
-                    description='N/A'
-                    backgroundImg={naImg}
-                    projectUrl='javascript:void(0);'
+                    title='Kodetic Photography Website'
+                    description='In Development For New Redesign'
+                    backgroundImg={Kodak}
+                    projectUrl='/Kodak'
                 />
                 <ProjectItem
-                    title='Project Number 4'
-                    description='N/A'
-                    backgroundImg={naImg}
-                    projectUrl='javascript:void(0);'
+                    title='Personal Porfolio'
+                    description='You Are Looking At It Right Now!'
+                    backgroundImg={Portfolio}
+                    projectUrl='/'
                 />
             </div>
         </div>
