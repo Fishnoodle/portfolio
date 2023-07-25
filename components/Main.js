@@ -8,12 +8,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Main = () => {
-
-    function copyText(entryText){
-        navigator.clipboard.writeText(entryText);
-        alert('Copied to clipboard!')
-    }
-
+    
     const showToastMessage = () => {
         navigator.clipboard.writeText('shivar.vishal.pillay@gmail.com');
         toast.success('Successfully copied to clipboard!', {

@@ -2,10 +2,22 @@ import React from 'react'
 import Link from 'next/link'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsFillFileEarmarkPersonFill} from 'react-icons/bs'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 const Contact = () => {
+
+    const showToastMessage = () => {
+        navigator.clipboard.writeText('shivar.vishal.pillay@gmail.com');
+        toast.success('Successfully copied to clipboard!', {
+            position: toast.POSITION.BOTTOM_RIGHT
+        });
+    };
+
   return (
     <div id='contact' className='w-full lg:h-screen'>
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -29,16 +41,24 @@ const Contact = () => {
                             <p className='uppercase pt-8'>Connect With Me</p>
                             <div className='flex items-center justify-between py-4'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaLinkedinIn />
+                                    <Link href='https://www.linkedin.com/in/shivar-vishal-pillay-47783b132/' target='_blank'>
+                                        <FaLinkedinIn />
+                                    </Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <FaGithub />
+                                    <Link href='https://github.com/Fishnoodle' target='_blank'>
+                                        <FaGithub />
+                                    </Link>
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <AiOutlineMail />
+                                    <AiOutlineMail
+                                    onClick={showToastMessage}
+                                    />
                                 </div>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
+                                    <Link href='https://inky-spot-c57.notion.site/f5d0d73fc7e846a893bc8b16aecfe97f?pvs=4' target='_blank'>
+                                        <BsFillFileEarmarkPersonFill />
+                                    </Link>
                                 </div>
                             </div>
                         </div>

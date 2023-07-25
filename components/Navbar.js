@@ -16,8 +16,9 @@ const Navbar = () => {
 
     useEffect(() => {
         if (
-            router.asPath === '/project1' ||
-            router.asPath === '/project2' 
+            router.asPath === '/SmartRoster' ||
+            router.asPath === '/Kodak' ||
+            router.asPath === '/VancouverSaiCenter'
         ) {
             setNavBg('transparent')
             setLinkColor('#ecf0f3')

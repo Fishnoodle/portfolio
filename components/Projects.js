@@ -16,16 +16,16 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem
+                    title='SMART Roster'
+                    description='Automated Nursing Assignment Planning'
+                    backgroundImg={SmartRoster}
+                    projectUrl='/SmartRoster'
+                />
+                <ProjectItem
                     title='Vancouver Sai Center Website'
                     description='In Development For New Redesign'
                     backgroundImg={VSC}
                     projectUrl='/VancouverSaiCenter'
-                />
-                <ProjectItem
-                    title='SMART Roster'
-                    description='Automated Nursing Assignment Planning'
-                    backgroundImg={SmartRoster}
-                    projectUrl='javascript:void(0);'
                 />
                 <ProjectItem
                     title='Kodetic Photography Website'
