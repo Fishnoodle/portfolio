@@ -12,6 +12,7 @@ import NodeJs from '../public/assets/node.png'
 import ReactPNG from '../public/assets/react.png'
 import Shopify from '../public/assets/shopify.png'
 import Tailwind from '../public/assets/tailwind.png'
+import Microsoft from '../public/assets/microsoft.png'
 
 export const Skills = () => {
   return (
@@ -85,6 +86,12 @@ export const Skills = () => {
                     img={Shopify}
                     item='Shopify'
                     link='https://www.shopify.com/ca'
+                />
+
+                <SkillsItem
+                    img={Microsoft}
+                    item='Microsoft 365'
+                    link='https://www.office.com/'
                 />
 
             </div>
