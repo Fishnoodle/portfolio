@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import AboutImg from '../public/aboutImg.jpg';
 import { Slide } from 'react-slideshow-image'
 import Link from 'next/link';
+import PhotoSlider from './PhotoSlider'
 
 export const About = () => {
 
@@ -40,8 +40,9 @@ export const About = () => {
                     <p className='py-2 text-gray-500 underline cursor-pointer'> Check out some of my latest projects.</p>
                 </Link>
             </div>
-            <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl' src={AboutImg} alt='/' />
+            <div className='w-full h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                {/* <Image className='rounded-xl' src={AboutImg} alt='/' /> */}
+                <PhotoSlider />
             </div>
         </div>
     </div>

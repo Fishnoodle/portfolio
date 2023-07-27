@@ -6,6 +6,7 @@ import VSC from '../public/VSC.png'
 import Kodak from '../public/Kodak.png'
 import Portfolio from '../public/Portfolio.png'
 import SmartRoster from '../public/SmartRoster.png'
+import Wastr from '../public/Wastr.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -34,11 +35,12 @@ const Projects = () => {
                     projectUrl='/Kodak'
                 />
                 <ProjectItem
-                    title='Personal Porfolio'
-                    description='You Are Looking At It Right Now!'
-                    backgroundImg={Portfolio}
-                    projectUrl='/'
+                    title='Wastr - The App Meant For Sharing'
+                    description='UX/UI Design'
+                    backgroundImg={Wastr}
+                    projectUrl='/Wastr'
                 />
+                
             </div>
         </div>
     </div>
