@@ -12,19 +12,19 @@ const project2 = () => {
             <Image className='absolute z-1' layout='fill' objectFit='cover' src={SmartRosterImg} alt='/' />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='py-2'>Smart Roster</h2>
-                <h3>Role: Web Development | UX/UI Designer</h3>
+                <h4>Role: Web Development | UX/UI Designer</h4>
             </div>
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
                 <p className='uppercase text-xl tracking-widest text-[#4d5d53] pb-4'>Project</p>
-                <h3>Company Profile</h3>
+                <h4>Company Profile</h4>
                 <p>
                     Smart Roster is a startup company created by a group of women (nurses) that want
                     to solve the problem of inefficient scheduling in hospitals. This particular
                     project will be trialed in the NICU at BC Women's Hospital.
                 </p>
-                <h3 className='pt-4'>Project Description</h3>
+                <h4 className='pt-4'>Project Description</h4>
                 <p>
                     The project aim is to develop a web-based application that will match scheduled
                     nurses with a patient assignment, considering variables such as skill set, patient

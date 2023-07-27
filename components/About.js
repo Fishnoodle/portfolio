@@ -36,8 +36,9 @@ export const About = () => {
                     projects and work collaboratively with teams in creating innovative solutions.
                     Let's connect and build something amazing together!
                 </p>
+                <p className='py-2 text-gray-500'> // I have also a dog named Mikey :) </p>
                 <Link href='/#projects'>
-                    <p className='py-2 text-gray-500 underline cursor-pointer'> Check out some of my latest projects.</p>
+                    <p className='py-5 text-gray-500 underline cursor-pointer'> Check out some of my latest projects.</p>
                 </Link>
             </div>
             <div className='w-full h-full m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>

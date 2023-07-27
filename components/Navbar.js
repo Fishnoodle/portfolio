@@ -18,7 +18,9 @@ const Navbar = () => {
         if (
             router.asPath === '/SmartRoster' ||
             router.asPath === '/Kodak' ||
-            router.asPath === '/VancouverSaiCenter'
+            router.asPath === '/VancouverSaiCenter' ||
+            router.asPath === '/Ecocities' ||
+            router.asPath === '/Wastr' 
         ) {
             setNavBg('transparent')
             setLinkColor('#ecf0f3')

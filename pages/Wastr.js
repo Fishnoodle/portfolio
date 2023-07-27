@@ -12,13 +12,13 @@ const project2 = () => {
             <Image className='absolute z-1' layout='fill' objectFit='cover' src={WastrImg} alt='/' />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                 <h2 className='py-2'>Wastr</h2>
-                <h3>Role: UX/UI Designer</h3>
+                <h4>Role: UX/UI Designer</h4>
             </div>
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
             <div className='col-span-4'>
                 <p className='uppercase text-xl tracking-widest text-[#4d5d53] pb-4'>Project</p>
-                <h3>Problem Domain</h3>
+                <h4>Problem Domain</h4>
                 <p>
                     Our problem domain revolves around food. The objective of our mobile website is to
                     reduce food waste around our communities. We would give people the opportunity to

@@ -17,7 +17,7 @@ const SkillsItem = ({img, item, link}) => {
                 </Link>
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <h3>{item}</h3>
+                <h4>{item}</h4>
             </div>
         </div>
     </div>
