@@ -35,13 +35,14 @@ const Projects = () => {
                     backgroundImg={Ecocities}
                     projectUrl='/Ecocities'
                 />
-
+                {/*
                 <ProjectItem
                     title='Vancouver Sai Center Website'
                     description='In Development For New Redesign'
                     backgroundImg={VSC}
                     projectUrl='javascript:void(0);'    // '/VancouverSaiCenter'
                 />
+                */}
                 <ProjectItem
                     title='Kodetic Photography Website'
                     description='In Development For New Redesign'
