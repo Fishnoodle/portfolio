@@ -5,7 +5,6 @@ import Image from 'next/image'
 import AboutImg1 from '../public/aboutImg1.jpg';
 import AboutImg2 from '../public/aboutImg2.jpg';
 import AboutImg3 from '../public/aboutImg3.jpg';
-import AboutImg4 from '../public/aboutImg4.jpg';
 
 const PhotoSlider = () => {
     const [sliderRef] = useKeenSlider(
@@ -49,7 +48,6 @@ const PhotoSlider = () => {
             <Image className='keen-slider__slide rounded-xl' src={AboutImg1} alt='/' />
             <Image className='keen-slider__slide rounded-xl' src={AboutImg2} alt='/' />
             <Image className='keen-slider__slide rounded-xl' src={AboutImg3} alt='/' />
-            <Image className='keen-slider__slide rounded-xl' src={AboutImg4} alt='/' />
         </div>
 
       )
