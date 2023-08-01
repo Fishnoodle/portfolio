@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Vishal Pillay | Portfolio</title>
-        <meta name="This is my portfolio" content="Generated with next.js" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
         <link rel="icon" href="/logo.png" />
       </Head>
       <Main />
