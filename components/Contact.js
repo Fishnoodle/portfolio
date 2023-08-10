@@ -66,7 +66,13 @@ const Contact = () => {
                 </div>
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form>
+                        <form
+                            name='contact'
+                            method='POST'
+                            action='contact/?success=true'
+                            data-netlify='true'
+                        >
+                            <input type='hidden' name='form-name' value='contact-form' />
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>
