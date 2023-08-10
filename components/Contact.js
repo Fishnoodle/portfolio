@@ -69,7 +69,6 @@ const Contact = () => {
                         <form
                             name='contact'
                             method='POST'
-                            action='contact/?success=true'
                             data-netlify='true'
                         >
                             <input type='hidden' name='form-name' value='contact-form' />
@@ -119,7 +118,7 @@ const Contact = () => {
                             </div>
                             <button
                                 className='w-full p-4 text-gray-100 mt-4'
-                                onClick={() => alert('Currently In Consturction :)')}
+                                onClick={() => alert('Submission Sent')}
                             >
                                 Send Message
                             </button>
