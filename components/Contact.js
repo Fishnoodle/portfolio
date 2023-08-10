@@ -115,7 +115,7 @@ const Contact = () => {
                                 <label className='uppercase text-sm py-2'>
                                     Message
                                 </label>
-                                <input className='border-2 rounded-lg p-3 border-gray-300' id='large-input'></input>
+                                <input className='border-2 rounded-lg p-3 border-gray-300'></input>
                             </div>
                             <button
                                 className='w-full p-4 text-gray-100 mt-4'
