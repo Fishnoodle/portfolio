@@ -69,6 +69,7 @@ const Contact = () => {
                         <form
                             name='contact'
                             method='POST'
+                            action='/'
                             data-netlify='true'
                         >
                             <input type='hidden' name='form-name' value='contact-form' />
@@ -114,11 +115,11 @@ const Contact = () => {
                                 <label className='uppercase text-sm py-2'>
                                     Message
                                 </label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
+                                <input className='border-2 rounded-lg p-3 border-gray-300' id='large-input'></input>
                             </div>
                             <button
                                 className='w-full p-4 text-gray-100 mt-4'
-                                onClick={() => alert('Submission Sent')}
+                                onClick={() => alert('Contact Form Sent')}
                             >
                                 Send Message
                             </button>
