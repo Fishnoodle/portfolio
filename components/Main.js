@@ -28,7 +28,7 @@ const Main = () => {
                     {/* <h1 className='py-2 text-gray-700'>A Front-End Web Developer</h1> */}
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                         I'm a developer that likes to create unique and unusual applications
-                        with the intent to create pleasing, satisfying products.
+                        with the intent to create pleasing, satisfying products. 
                         I am currently looking for new full-time and part-time opportunities!
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
