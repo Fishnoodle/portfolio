@@ -10,9 +10,12 @@ import Javascript from '../public/assets/javascript.png'
 import NextJs from '../public/assets/nextjs.png'
 import NodeJs from '../public/assets/node.png'
 import ReactPNG from '../public/assets/react.png'
-import Shopify from '../public/assets/shopify.png'
-import Tailwind from '../public/assets/tailwind.png'
-import Microsoft from '../public/assets/microsoft.png'
+import Python from '../public/assets/python.png'
+import MySQL from '../public/assets/mysql.png'
+import Nginx from '../public/assets/nginx.png'
+import Docker from '../public/assets/docker.png'
+import Jenkins from '../public/assets/jenkins.png'
+
 
 export const Skills = () => {
   return (
@@ -47,6 +50,12 @@ export const Skills = () => {
                 />
 
                 <SkillsItem
+                    img={Python}
+                    item='Python'
+                    link='https://www.python.org/'
+                />
+
+                <SkillsItem
                     img={NodeJs}
                     item='NodeJs'
                     link='https://nodejs.org/en'
@@ -65,12 +74,6 @@ export const Skills = () => {
                 />
 
                 <SkillsItem
-                    img={Tailwind}
-                    item='Tailwind'
-                    link='https://tailwindcss.com/'
-                />
-
-                <SkillsItem
                     img={AWS}
                     item='AWS'
                     link='https://aws.amazon.com/'
@@ -83,16 +86,29 @@ export const Skills = () => {
                 />
 
                 <SkillsItem
-                    img={Shopify}
-                    item='Shopify'
-                    link='https://www.shopify.com/ca'
+                    img={MySQL}
+                    item='MySQL'
+                    link='https://www.mysql.com/'
                 />
 
                 <SkillsItem
-                    img={Microsoft}
-                    item='Microsoft 365'
-                    link='https://www.office.com/'
+                    img={Nginx}
+                    item='Nginx'
+                    link='https://www.nginx.com/'
                 />
+
+                <SkillsItem
+                    img={Docker}
+                    item='Docker'
+                    link='https://www.docker.com/'
+                />
+
+                <SkillsItem
+                    img={Jenkins}
+                    item='Jenkins'
+                    link='https://www.jenkins.io/'
+                />
+
 
             </div>
         </div>
