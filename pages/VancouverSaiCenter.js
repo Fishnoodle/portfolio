@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import propertyImg from '../public/assets/aws.png'
+import VscImg from '../public/VSC.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -9,10 +9,10 @@ const project1 = () => {
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-            <Image className='absolute z-1' layout='fill' objectFit='cover' src={propertyImg} alt='/' />
+            <Image className='absolute z-1' layout='fill' objectFit='cover' src={VscImg} alt='/' />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                <h2 className='py-2'>Project 1</h2>
-                <h4> React JS / Tailwind / Firebase</h4>
+                <h2 className='py-2'>Vancouver Sai Center</h2>
+                <h4>UX/UI Redesign</h4>
             </div>
         </div>
         <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
@@ -20,22 +20,18 @@ const project1 = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>
-                It is a long established fact that a reader will be distracted by the readable content
-                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                more-or-less normal distribution of letters, as opposed to using 'Content here,
-                content here', making it look like readable English. Many desktop publishing
+                    The old design needed a new Redesign
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                <button className='px-8 py-2 mt-4'>Code</button>
+                <Link href='https://www.figma.com/file/DWoAH6qslHe0HO5pDZHD6G/Vancouver-Sai-Center-Redesign?type=design&node-id=0%3A1&mode=design&t=th58D4HkKXlQYPpk-1' target='_blank'>
+                    <button className='px-8 py-2 mt-4 mr-8'>Figma</button>
+                </Link>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>
                     <p className='text-center font-bold pb-2'>Technologies</p>
                     <div className='grid grid-cols-3 md:grid-cols-1'>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> React</p>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> JavaScript</p>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Firebase</p>
-                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Tailwind</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> UX/UI</p>
+                        <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-1' /> Figma</p>
                     </div>
                 </div>
             </div>
